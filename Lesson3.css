@@ -1,0 +1,37 @@
+/* by element */
+h1 {
+    font-size: 69px;
+    background-color: orange;
+}
+/* by class */
+.h2_name {
+    font-size: 69px;
+    background-color: yellow
+}
+.h2_age {
+    font-size: 50px;
+    background-color: blueviolet
+}
+/* by Id */
+#h3_name {
+    font-size: 30px;
+    background-color: aqua;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    background-color: red;
+    padding: 20px;
+    justify-content: space-between;
+
+
+}
+.container2 {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    background-color: yellowgreen;
+    padding: 10px;
+
+}

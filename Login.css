@@ -1,0 +1,32 @@
+.form {
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.label_name {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.input_name {
+    border: 1.5px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.label_email {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.input_email {
+    border: 1.5px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.Bt_Submit {
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lesson2.css">
+    <title>Lesson 2</title>
+</head>
+
+<body>
+    <!-- Inline: Phụ thuộc vào diện tích của content, không thể thay đổi thuộc tính,
+            Có thể nằm trên 1 dòng-->
+    <span style="background-color: burlywood; width: 100px;"> Thầy Hưng đẹp trai</span>
+    <span style="background-color: rgb(196, 222, 135);">Thầy Hưng đẹp trai</span>
+    <!--Block: Diện tích luôn chiếm 100%, có thể thay đổi thuộc tính, không thể nằm 
+            trên 1 dòng-->
+    <h1 style="background-color: burlywood;">Học tại Mindx</h1>
+    <div style="background-color: rgb(135, 210, 222);">
+        <h1>1</h1>
+        <h2>2</h2>
+        <h3>3</h3>
+    </div>
+    <!-- Inline-Block: Chứa các thuộc tính gồm Inline, Block. Có thể nằm trên 1 dòng, 
+            Cố thể thay đổi thuộc tính -->
+    <span style="display: inline-block; background-color: aquamarine; width: 100px;">Học tại lớp JSB46</span>
+    <div style="background-color: rgb(127, 174, 255);">Học tại lớp JSB46</div> <br>
+
+    <!-- Box - model -->
+    <button style="background-color: aqua;
+                   width: 100px;
+                   height: 100px;
+                   padding: 10px 20px 30px 40px;
+                   margin-right: 100px;
+                   ">BOX-MODEL</button>
+    <button style="background-color: aquamarine;
+                   width: 100px;
+                   height: 100px;
+                   padding-top: 20px;
+                   padding-left: 20px;
+                   padding-bottom: 20px;
+                   padding-right: 20px;
+                   margin-left: 100px;
+                  ">BOX-MODEL 2</button>
+
+    <!-- List: ul - li: Dấu chấm đầu dòng 
+               ol - li: Số thứ tự đầu dòng -->
+
+    <h2 style="color: rgb(20, 55, 231); font-size: 30px;">Sở thích</h2>
+    <ul>
+        <li>Ăn kem vào mùa đông</li>
+        <li>Đắp chăn bông vào mùa hè</li>
+        <li>Học lập trình</li>
+    </ul>
+    <h2 style="color: rgb(20, 55, 231); font-size: 30px;">Ghét</h2>
+    <ol style="list-style: none;">
+        <li>Ăn kem</li>
+        <li>Đắp chắn bông</li>
+        <li>Học tiếng anh</li>
+    </ol>
+    <!-- <iframe src="" frameborder="0"></iframe> -->
+    <iframe width="560px" height="315px" src="https://www.youtube.com/embed/BNndHBR3ChU?si=UuG_vCK4R5KoxBrs"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>
